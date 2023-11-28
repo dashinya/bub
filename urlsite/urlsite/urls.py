@@ -20,6 +20,6 @@ from .views import *
 
 urlpatterns = [
     path('', main_page ),
-    path('post', post_page ),
-    path('about', about_page ),
+    path('post/', post_page ),
+    path('about/', about_page ),
 ]
